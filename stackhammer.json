@@ -1,0 +1,40 @@
+{
+  "metaVersion": "1.1.6",
+  "accessKey": "reid_pl_west2",
+  "puppetVersion": "PUPPET_ENTERPRISE27",
+  "master": {
+    "type": "C1_MEDIUM",
+    "deployState": "RUNNING",
+    "image": "ami-ae61ea9e",
+    "publicKeys": [
+      "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCNrbEEVw7UKEwy9iHdjIGdlo0kUgke+jflLkuJzZRqw3G6goMyIDW9/a1m0xVFrlxOeZT+3YXIFImBjtU+5xbpksEJfbEDhwZYEtNv3LfQpiUvILqJ+IasXOhHUtw4Sh5ZVak58G/zlMZYcnoOK/S5+KQbrtisz6PDzNrnXSvR1ZM8qB5u1zwrPagC7w+5ju8Slz/SqK6wlpno3Rzp1An7ZzwTFf5iL/CmT80JJ3PuTQDcmfC02kDJiXRK7iFKlHh2mVcSJuKdWbRMxIBa0OAqUEhpw7rkbTm/jn+yW4QzTiYoWWGt881i4VLRUSeoNQD/CQvhlzf9jZGRumsZCIIr"
+    ],
+    "name": "master"
+  },
+  "environments": [
+    {
+      "siteLocation": "manifests",
+      "moduleLocations": [
+        "modules"
+      ],
+      "nodes": [
+        {
+          "type": "T1_MICRO",
+          "deployState": "RUNNING",
+          "image": "ami-ae61ea9e",
+          "role": "agent",
+          "name": "centos63a"
+        },
+        {
+          "type": "T1_MICRO",
+          "deployState": "RUNNING",
+          "image": "ami-ae61ea9e",
+          "role": "agent",
+          "name": "centos63b"
+        }
+      ],
+      "name": "production"
+    }
+  ],
+  "puppetLintEnabled": false
+}
