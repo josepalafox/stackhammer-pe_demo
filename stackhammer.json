@@ -46,6 +46,13 @@
             "created_at": "2013-04-05T06:22:27Z",
             "updated_at": "2013-04-05T06:22:27Z"
           }
+        },
+        {
+          "node_class": {
+            "name": "tomcat_server",
+            "created_at": "2013-04-05T16:35:06Z",
+            "updated_at": "2013-04-05T16:35:06Z"
+          }
         }
       ],
       "groups": [
@@ -90,7 +97,7 @@
               6
             ],
             "created_at": "2013-04-05T06:24:05Z",
-            "updated_at": "2013-04-05T06:25:34Z"
+            "updated_at": "2013-04-05T16:33:07Z"
           }
         },
         {
@@ -101,7 +108,7 @@
               6
             ],
             "created_at": "2013-04-05T06:24:05Z",
-            "updated_at": "2013-04-05T06:25:35Z"
+            "updated_at": "2013-04-05T16:33:07Z"
           }
         }
       ],
@@ -141,7 +148,7 @@
           }
         }
       ],
-      "lastSync": "2013-04-05T16:11:11Z"
+      "lastSync": "2013-04-05T16:35:09Z"
     },
     "type": "C1_MEDIUM",
     "deployState": "RUNNING",
