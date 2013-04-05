@@ -3,6 +3,146 @@
   "accessKey": "reid_pl_west2",
   "puppetVersion": "PUPPET_ENTERPRISE27",
   "master": {
+    "consoleData": {
+      "classes": [
+        {
+          "node_class": {
+            "name": "agent",
+            "created_at": "2013-04-05T00:31:46Z",
+            "updated_at": "2013-04-05T00:31:46Z"
+          }
+        },
+        {
+          "node_class": {
+            "name": "pe_accounts",
+            "created_at": "2013-04-05T00:29:20Z",
+            "updated_at": "2013-04-05T00:29:20Z"
+          }
+        },
+        {
+          "node_class": {
+            "name": "pe_compliance",
+            "created_at": "2013-04-05T00:29:20Z",
+            "updated_at": "2013-04-05T00:29:20Z"
+          }
+        },
+        {
+          "node_class": {
+            "name": "pe_mcollective",
+            "created_at": "2013-04-05T00:29:20Z",
+            "updated_at": "2013-04-05T00:29:20Z"
+          }
+        },
+        {
+          "node_class": {
+            "name": "pe_mcollective::role::console",
+            "created_at": "2013-04-05T00:30:31Z",
+            "updated_at": "2013-04-05T00:30:31Z"
+          }
+        },
+        {
+          "node_class": {
+            "name": "pe_mcollective::role::master",
+            "created_at": "2013-04-05T00:30:02Z",
+            "updated_at": "2013-04-05T00:30:02Z"
+          }
+        }
+      ],
+      "groups": [
+        {
+          "node_group": {
+            "name": "puppet_console",
+            "assigned_node_group_ids": [],
+            "assigned_node_class_ids": [
+              5
+            ],
+            "created_at": "2013-04-05T00:30:36Z",
+            "updated_at": "2013-04-05T00:30:36Z"
+          }
+        },
+        {
+          "node_group": {
+            "name": "puppet_master",
+            "assigned_node_group_ids": [],
+            "assigned_node_class_ids": [
+              4
+            ],
+            "created_at": "2013-04-05T00:30:07Z",
+            "updated_at": "2013-04-05T00:30:07Z"
+          }
+        },
+        {
+          "node_group": {
+            "name": "stackhammer.synchronized",
+            "assigned_node_group_ids": [],
+            "assigned_node_class_ids": [],
+            "created_at": "2013-04-05T00:31:44Z",
+            "updated_at": "2013-04-05T00:31:44Z"
+          }
+        }
+      ],
+      "nodes": [
+        {
+          "node": {
+            "name": "centos63a",
+            "assigned_node_group_ids": [],
+            "assigned_node_class_ids": [
+              6
+            ],
+            "created_at": "2013-04-05T00:31:44Z",
+            "updated_at": "2013-04-05T00:33:15Z"
+          }
+        },
+        {
+          "node": {
+            "name": "centos63b",
+            "assigned_node_group_ids": [],
+            "assigned_node_class_ids": [
+              6
+            ],
+            "created_at": "2013-04-05T00:31:45Z",
+            "updated_at": "2013-04-05T00:33:21Z"
+          }
+        }
+      ],
+      "groupContributions": [
+        {
+          "node_group_class_membership": {
+            "node_group_id": 3,
+            "node_class_id": 5,
+            "created_at": "2013-04-05T00:30:42Z",
+            "updated_at": "2013-04-05T00:30:42Z"
+          }
+        },
+        {
+          "node_group_class_membership": {
+            "node_group_id": 2,
+            "node_class_id": 4,
+            "created_at": "2013-04-05T00:30:13Z",
+            "updated_at": "2013-04-05T00:30:13Z"
+          }
+        }
+      ],
+      "nodeContributions": [
+        {
+          "node_class_membership": {
+            "node_id": 2,
+            "node_class_id": 6,
+            "created_at": "2013-04-05T00:31:48Z",
+            "updated_at": "2013-04-05T00:31:48Z"
+          }
+        },
+        {
+          "node_class_membership": {
+            "node_id": 3,
+            "node_class_id": 6,
+            "created_at": "2013-04-05T00:31:49Z",
+            "updated_at": "2013-04-05T00:31:49Z"
+          }
+        }
+      ],
+      "lastSync": "2013-04-05T04:14:14Z"
+    },
     "type": "C1_MEDIUM",
     "deployState": "RUNNING",
     "image": "ami-ae61ea9e",
