@@ -86,6 +86,17 @@
             "created_at": "2013-04-05T00:31:44Z",
             "updated_at": "2013-04-05T00:31:44Z"
           }
+        },
+        {
+          "node_group": {
+            "name": "Tomcat",
+            "assigned_node_group_ids": [],
+            "assigned_node_class_ids": [
+              7
+            ],
+            "created_at": "2013-04-05T05:21:42Z",
+            "updated_at": "2013-04-05T05:21:42Z"
+          }
         }
       ],
       "nodes": [
@@ -97,7 +108,7 @@
               6
             ],
             "created_at": "2013-04-05T00:31:44Z",
-            "updated_at": "2013-04-05T05:05:14Z"
+            "updated_at": "2013-04-05T05:12:06Z"
           }
         },
         {
@@ -108,7 +119,7 @@
               6
             ],
             "created_at": "2013-04-05T00:31:45Z",
-            "updated_at": "2013-04-05T04:57:43Z"
+            "updated_at": "2013-04-05T05:07:20Z"
           }
         }
       ],
@@ -127,6 +138,14 @@
             "node_class_id": 4,
             "created_at": "2013-04-05T00:30:13Z",
             "updated_at": "2013-04-05T00:30:13Z"
+          }
+        },
+        {
+          "node_group_class_membership": {
+            "node_group_id": 6,
+            "node_class_id": 7,
+            "created_at": "2013-04-05T05:21:42Z",
+            "updated_at": "2013-04-05T05:21:42Z"
           }
         }
       ],
@@ -148,7 +167,7 @@
           }
         }
       ],
-      "lastSync": "2013-04-05T05:06:09Z"
+      "lastSync": "2013-04-05T05:24:56Z"
     },
     "type": "C1_MEDIUM",
     "deployState": "RUNNING",
