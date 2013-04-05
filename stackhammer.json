@@ -46,6 +46,13 @@
             "created_at": "2013-04-05T00:30:02Z",
             "updated_at": "2013-04-05T00:30:02Z"
           }
+        },
+        {
+          "node_class": {
+            "name": "profile::tomcat",
+            "created_at": "2013-04-05T04:36:12Z",
+            "updated_at": "2013-04-05T04:36:12Z"
+          }
         }
       ],
       "groups": [
@@ -79,6 +86,17 @@
             "created_at": "2013-04-05T00:31:44Z",
             "updated_at": "2013-04-05T00:31:44Z"
           }
+        },
+        {
+          "node_group": {
+            "name": "Tomcat",
+            "assigned_node_group_ids": [],
+            "assigned_node_class_ids": [
+              7
+            ],
+            "created_at": "2013-04-05T04:36:05Z",
+            "updated_at": "2013-04-05T04:36:05Z"
+          }
         }
       ],
       "nodes": [
@@ -90,7 +108,7 @@
               6
             ],
             "created_at": "2013-04-05T00:31:44Z",
-            "updated_at": "2013-04-05T00:33:15Z"
+            "updated_at": "2013-04-05T04:43:01Z"
           }
         },
         {
@@ -101,7 +119,7 @@
               6
             ],
             "created_at": "2013-04-05T00:31:45Z",
-            "updated_at": "2013-04-05T00:33:21Z"
+            "updated_at": "2013-04-05T04:39:39Z"
           }
         }
       ],
@@ -121,6 +139,14 @@
             "created_at": "2013-04-05T00:30:13Z",
             "updated_at": "2013-04-05T00:30:13Z"
           }
+        },
+        {
+          "node_group_class_membership": {
+            "node_group_id": 5,
+            "node_class_id": 7,
+            "created_at": "2013-04-05T04:36:36Z",
+            "updated_at": "2013-04-05T04:36:36Z"
+          }
         }
       ],
       "nodeContributions": [
@@ -128,8 +154,8 @@
           "node_class_membership": {
             "node_id": 2,
             "node_class_id": 6,
-            "created_at": "2013-04-05T00:31:48Z",
-            "updated_at": "2013-04-05T00:31:48Z"
+            "created_at": "2013-04-05T04:53:41Z",
+            "updated_at": "2013-04-05T04:53:41Z"
           }
         },
         {
@@ -141,7 +167,7 @@
           }
         }
       ],
-      "lastSync": "2013-04-05T04:14:14Z"
+      "lastSync": "2013-04-05T04:53:43Z"
     },
     "type": "C1_MEDIUM",
     "deployState": "RUNNING",
