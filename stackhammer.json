@@ -91,24 +91,24 @@
       "nodes": [
         {
           "node": {
-            "name": "centos63a",
-            "assigned_node_group_ids": [],
-            "assigned_node_class_ids": [
-              6
-            ],
-            "created_at": "2013-04-05T06:24:05Z",
-            "updated_at": "2013-04-05T16:33:07Z"
-          }
-        },
-        {
-          "node": {
             "name": "centos63b",
             "assigned_node_group_ids": [],
             "assigned_node_class_ids": [
               6
             ],
             "created_at": "2013-04-05T06:24:05Z",
-            "updated_at": "2013-04-05T16:33:07Z"
+            "updated_at": "2013-04-05T22:34:58Z"
+          }
+        },
+        {
+          "node": {
+            "name": "centos63a",
+            "assigned_node_group_ids": [],
+            "assigned_node_class_ids": [
+              6
+            ],
+            "created_at": "2013-04-05T06:24:05Z",
+            "updated_at": "2013-04-05T22:34:26Z"
           }
         }
       ],
@@ -133,7 +133,7 @@
       "nodeContributions": [
         {
           "node_class_membership": {
-            "node_id": 2,
+            "node_id": 3,
             "node_class_id": 6,
             "created_at": "2013-04-05T06:24:09Z",
             "updated_at": "2013-04-05T06:24:09Z"
@@ -141,14 +141,14 @@
         },
         {
           "node_class_membership": {
-            "node_id": 3,
+            "node_id": 2,
             "node_class_id": 6,
-            "created_at": "2013-04-05T06:24:09Z",
-            "updated_at": "2013-04-05T06:24:09Z"
+            "created_at": "2013-04-05T23:00:32Z",
+            "updated_at": "2013-04-05T23:00:32Z"
           }
         }
       ],
-      "lastSync": "2013-04-05T16:35:09Z"
+      "lastSync": "2013-04-05T23:00:34Z"
     },
     "type": "C1_MEDIUM",
     "deployState": "RUNNING",
