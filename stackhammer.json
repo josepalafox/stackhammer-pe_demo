@@ -8,50 +8,43 @@
         {
           "node_class": {
             "name": "agent",
-            "created_at": "2013-04-05T00:31:46Z",
-            "updated_at": "2013-04-05T00:31:46Z"
+            "created_at": "2013-04-05T06:24:06Z",
+            "updated_at": "2013-04-05T06:24:06Z"
           }
         },
         {
           "node_class": {
             "name": "pe_accounts",
-            "created_at": "2013-04-05T00:29:20Z",
-            "updated_at": "2013-04-05T00:29:20Z"
+            "created_at": "2013-04-05T06:21:54Z",
+            "updated_at": "2013-04-05T06:21:54Z"
           }
         },
         {
           "node_class": {
             "name": "pe_compliance",
-            "created_at": "2013-04-05T00:29:20Z",
-            "updated_at": "2013-04-05T00:29:20Z"
+            "created_at": "2013-04-05T06:21:54Z",
+            "updated_at": "2013-04-05T06:21:54Z"
           }
         },
         {
           "node_class": {
             "name": "pe_mcollective",
-            "created_at": "2013-04-05T00:29:20Z",
-            "updated_at": "2013-04-05T00:29:20Z"
+            "created_at": "2013-04-05T06:21:54Z",
+            "updated_at": "2013-04-05T06:21:54Z"
           }
         },
         {
           "node_class": {
             "name": "pe_mcollective::role::console",
-            "created_at": "2013-04-05T00:30:31Z",
-            "updated_at": "2013-04-05T00:30:31Z"
+            "created_at": "2013-04-05T06:22:54Z",
+            "updated_at": "2013-04-05T06:22:54Z"
           }
         },
         {
           "node_class": {
             "name": "pe_mcollective::role::master",
-            "created_at": "2013-04-05T00:30:02Z",
-            "updated_at": "2013-04-05T00:30:02Z"
-          }
-        },
-        {
-          "node_class": {
-            "name": "profile::tomcat",
-            "created_at": "2013-04-05T04:36:12Z",
-            "updated_at": "2013-04-05T04:36:12Z"
+            "created_at": "2013-04-05T06:22:27Z",
+            "updated_at": "2013-04-05T06:22:27Z"
           }
         }
       ],
@@ -63,8 +56,8 @@
             "assigned_node_class_ids": [
               5
             ],
-            "created_at": "2013-04-05T00:30:36Z",
-            "updated_at": "2013-04-05T00:30:36Z"
+            "created_at": "2013-04-05T06:22:59Z",
+            "updated_at": "2013-04-05T06:22:59Z"
           }
         },
         {
@@ -74,8 +67,8 @@
             "assigned_node_class_ids": [
               4
             ],
-            "created_at": "2013-04-05T00:30:07Z",
-            "updated_at": "2013-04-05T00:30:07Z"
+            "created_at": "2013-04-05T06:22:32Z",
+            "updated_at": "2013-04-05T06:22:32Z"
           }
         },
         {
@@ -83,19 +76,8 @@
             "name": "stackhammer.synchronized",
             "assigned_node_group_ids": [],
             "assigned_node_class_ids": [],
-            "created_at": "2013-04-05T00:31:44Z",
-            "updated_at": "2013-04-05T00:31:44Z"
-          }
-        },
-        {
-          "node_group": {
-            "name": "Tomcat",
-            "assigned_node_group_ids": [],
-            "assigned_node_class_ids": [
-              7
-            ],
-            "created_at": "2013-04-05T05:21:42Z",
-            "updated_at": "2013-04-05T05:21:42Z"
+            "created_at": "2013-04-05T06:24:05Z",
+            "updated_at": "2013-04-05T06:24:05Z"
           }
         }
       ],
@@ -107,8 +89,8 @@
             "assigned_node_class_ids": [
               6
             ],
-            "created_at": "2013-04-05T00:31:44Z",
-            "updated_at": "2013-04-05T05:12:06Z"
+            "created_at": "2013-04-05T06:24:05Z",
+            "updated_at": "2013-04-05T06:24:05Z"
           }
         },
         {
@@ -118,8 +100,8 @@
             "assigned_node_class_ids": [
               6
             ],
-            "created_at": "2013-04-05T00:31:45Z",
-            "updated_at": "2013-04-05T05:07:20Z"
+            "created_at": "2013-04-05T06:24:05Z",
+            "updated_at": "2013-04-05T06:24:05Z"
           }
         }
       ],
@@ -128,24 +110,16 @@
           "node_group_class_membership": {
             "node_group_id": 3,
             "node_class_id": 5,
-            "created_at": "2013-04-05T00:30:42Z",
-            "updated_at": "2013-04-05T00:30:42Z"
+            "created_at": "2013-04-05T06:23:05Z",
+            "updated_at": "2013-04-05T06:23:05Z"
           }
         },
         {
           "node_group_class_membership": {
             "node_group_id": 2,
             "node_class_id": 4,
-            "created_at": "2013-04-05T00:30:13Z",
-            "updated_at": "2013-04-05T00:30:13Z"
-          }
-        },
-        {
-          "node_group_class_membership": {
-            "node_group_id": 6,
-            "node_class_id": 7,
-            "created_at": "2013-04-05T05:21:42Z",
-            "updated_at": "2013-04-05T05:21:42Z"
+            "created_at": "2013-04-05T06:22:38Z",
+            "updated_at": "2013-04-05T06:22:38Z"
           }
         }
       ],
@@ -154,20 +128,20 @@
           "node_class_membership": {
             "node_id": 2,
             "node_class_id": 6,
-            "created_at": "2013-04-05T04:53:41Z",
-            "updated_at": "2013-04-05T04:53:41Z"
+            "created_at": "2013-04-05T06:24:09Z",
+            "updated_at": "2013-04-05T06:24:09Z"
           }
         },
         {
           "node_class_membership": {
             "node_id": 3,
             "node_class_id": 6,
-            "created_at": "2013-04-05T00:31:49Z",
-            "updated_at": "2013-04-05T00:31:49Z"
+            "created_at": "2013-04-05T06:24:09Z",
+            "updated_at": "2013-04-05T06:24:09Z"
           }
         }
       ],
-      "lastSync": "2013-04-05T05:24:56Z"
+      "lastSync": "2013-04-05T06:24:12Z"
     },
     "type": "C1_MEDIUM",
     "deployState": "RUNNING",
